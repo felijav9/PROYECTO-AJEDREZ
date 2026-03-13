@@ -172,12 +172,12 @@ class EmparejamientoSeeder extends Seeder
                 $negrasId = $getJ($emp['n']);
 
                 if ($blancasId && $negrasId) {
-                    Emparejamiento::create([
+                    Emparejamiento::firstOrCreate([
                         'ronda_id' => $ronda->id,
                         'blancas_id' => $blancasId,
                         'negras_id' => $negrasId,
                         'mesa' => $emp['m'],
-                        'estacion' => $emp['e'], 
+                        'estacion' => $emp['e'],
                         'resultado' => null,
                     ]);
                 }
