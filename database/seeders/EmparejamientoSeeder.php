@@ -9,6 +9,7 @@ use App\Models\Ronda;
 
 class EmparejamientoSeeder extends Seeder
 {
+    
     public function run(): void
     {
         // Helper para obtener ID de jugador
@@ -108,6 +109,8 @@ class EmparejamientoSeeder extends Seeder
             }
         }
     }
+
+
 
     // Función para obtener el nombre del jugador según el equipo y tablero
     private function getJugadorNombre($equipo, $tablero)
