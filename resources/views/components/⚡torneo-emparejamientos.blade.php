@@ -553,7 +553,7 @@ new class extends Component {
                     ROOK <span class="text-[#c5a059]">SYSTEMS</span>
                 </span>
                 <span class="text-[9px] text-slate-500 font-bold tracking-[0.3em] uppercase mt-1">
-                    Innovation
+                    Innovation and Technology
                 </span>
             </div>
         </div>
